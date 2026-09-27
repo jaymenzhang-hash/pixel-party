@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10131f" />
+  <title>Arcadia — Quick games for quick breaks</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" data-route="home" aria-label="Arcadia home">
+        <span class="brand-mark">✦</span><span>ARCADIA</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#games" data-route="games">Games</a>
+        <a href="#about" data-route="about">About</a>
+      </nav>
+      <div class="topbar-note"><span class="status-dot"></span>QUICK PLAY MODE</div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="footer">
+      <span>ARCADIA / made for tiny breaks</span>
+      <span class="footer-right">No downloads · no sign-in · just play</span>
+    </footer>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
